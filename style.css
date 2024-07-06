@@ -98,3 +98,26 @@ body {
 .imagenTexto p {
     font-size: 18px;
 }
+
+/* Footer */
+.enlaces {
+    width: 1000px;
+    background-color:#FA8072;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.enlaces .a {
+    color: beige;
+    text-decoration: none;
+}
+
+.enlaces .a:hover {
+    color: grey;
+    text-decoration: none;
+}
