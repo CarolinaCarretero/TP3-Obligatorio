@@ -25,3 +25,44 @@ body {
     color: beige;
 }
 
+/* Fomulario */
+.formulario {
+    width: 1000px;
+    background-color:#FA8072;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.control {
+    width: 100%;
+    background-color: beige;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid   #FA8072;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.formulario .btn {
+    width: 100%;
+    background-color: beige;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 15px;
+}
+
+.formulario .btn:hover {
+    color: gray;
+    cursor: pointer;
+}
